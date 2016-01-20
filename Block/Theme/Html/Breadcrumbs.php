@@ -10,4 +10,10 @@ class Breadcrumbs extends Html\Breadcrumbs
     {
         return $this->_crumbs;
     }
+
+    protected function _toHtml()
+    {
+        $this->setModuleName($this->extractModuleName('Magento\Theme\Block\Html\Breadcrumbs'));
+        return parent::_toHtml();
+    }
 }

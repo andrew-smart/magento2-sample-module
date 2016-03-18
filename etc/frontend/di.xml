@@ -12,4 +12,7 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Framework\View\Result\Page">
+        <plugin name="custom-layout-handles" type="Smartie\SampleModule\Plugin\Handles" sortOrder="10"/>
+    </type>
 </config>

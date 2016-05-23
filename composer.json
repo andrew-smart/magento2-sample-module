@@ -1,5 +1,5 @@
 {
-  "name": "smartie/sample-module",
+  "name": "smartie/magento2-sample-module",
   "description": "Sample Module",
   "type": "magento2-module",
   "version": "1.0.0",

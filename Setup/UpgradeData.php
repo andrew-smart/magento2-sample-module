@@ -31,7 +31,7 @@ class UpgradeData implements UpgradeDataInterface
             $entityTypeId = $eavSetup->getEntityTypeId(Product::ENTITY);
 
             $eavSetup->addAttribute($entityTypeId, 'sample', [
-                'type' => 'int',
+                'type' => 'varchar',
                 'label' => 'Sample',
                 'input' => 'multiselect',
                 'global' => ScopedAttributeInterface::SCOPE_STORE,
